@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<link rel="stylesheet" href="./css/fangdajing.css">
+</head>
+
+<body>
+    <!-- <div class="box"></div> -->
+    <div class="wrap">
+        <div id="spic"><!-- 小图 -->
+            <img src="img/2.jpg" alt="">
+            <div id="sf"></div>
+        </div>
+        <div id="bf"><!-- 大图 -->
+            <img src="img/2.jpg" alt="" id="bpic">
+        </div>
+        <div id="ulist"><!-- 运动的列表 -->
+            <a href="javascript:;" id="left">&lt;</a>
+            <div id="list">
+                <ul>
+                    <li><img src="img/1.jpg" alt=""></li>
+                    <li><img src="img/6.jpg" alt=""></li>
+                    <li><img src="img/3.jpg" alt=""></li>
+                    <li><img src="img/4.jpg" alt=""></li>
+                    <li><img src="img/5.jpg" alt=""></li>
+                    <li><img src="img/1.jpg" alt=""></li>
+                    <li><img src="img/3.jpg" alt=""></li>
+                    <li><img src="img/2.jpg" alt=""></li>
+                    <li><img src="img/1.jpg" alt=""></li>
+                    <li><img src="img/6.jpg" alt=""></li>
+                </ul>
+            </div>
+            <a href="javascript:;" id="right">&gt;</a>
+        </div>
+    </div>
+    <script src="../jquery.js"></script>
+    <script src="../src/jquery.color.js"></script>
+    <script src="js/scale.js"></script>
+    <script>
+        //1.animate(params,[speed],[easing],[fn])用于创建自定义动画的函数。
+        //params:一组包含作为动画属性和终值的样式属性和及其值的集合
+        //speed:三种预定速度之一的字符串("slow","normal", or "fast")或表示动画时长的毫秒数值(如：1000)
+        //easing:要使用的擦除效果的名称(需要插件支持).默认jQuery提供"linear" 和 "swing".
+        //fn:在动画完成时执行的函数，每个元素执行一次。
+
+        // $(document).on('click',function(){
+        //     $('.box').animate({
+        //         width:300,
+        //         height:300,
+        //         left:200,
+        //         top:'100px',
+        //         backgroundColor:'blue'
+        //     });
+        // });
+
+        // $(document).on('click',function(){
+        //     $('.box').animate({width:300}).animate({height:300});
+        // })
+
+        //2.尺寸
+        //width:内容的宽度
+        //innerWidth:width+padding
+        //outerWidth:width+padding+border
+        //outerWidth(true):width+padding+border+margin
+
+        //3.返回值:offset([coordinates])获取匹配元素在当前视口的相对偏移,返回值是一个对象，对象里面包含left和top值。
+        // console.log($('body').offset());
+        // console.log($('body').offset().left);
+        // console.log($('body').offset().top);
+
+        //4.css(name|pro|[,val|fn])访问匹配元素的样式属性。
+        //$('.box').css('width','200px').css('height','200px');
+        // $('.box').css({
+        //     width:200,
+        //     height:200,
+        //     background:'blue'
+        // });
+
+    </script>
+ 
+</body>
+
+</html>

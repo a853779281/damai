@@ -1,0 +1,108 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.wrap {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+#spic {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #000;
+  float: left;
+  position: relative;
+}
+#spic img {
+  width: 400px;
+  height: 400px;
+}
+#sf {
+  width: 50px;
+  height: 50px;
+  background: orange;
+  opacity: 0.3;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  visibility: hidden;
+  cursor: move;
+}
+#bf {
+  width: 400px;
+  height: 500px;
+  border: 1px solid #000;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 10px;
+  visibility: hidden;
+}
+#bf img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#ulist {
+  position: absolute;
+  left: 0px;
+  bottom: 15px;
+  width: 402px;
+  height: 56px;
+  overflow: hidden;
+}
+#ulist a {
+  float: left;
+  width: 10px;
+  height: 54px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  line-height: 56px;
+  text-align: center;
+  background: #fff;
+}
+#list {
+  float: left;
+  margin-left: 18px;
+  width: 372px;
+  position: relative;
+}
+ul {
+  list-style: none;
+  float: left;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+ul li {
+  float: left;
+  width: 56px;
+  height: 56px;
+  padding-right: 6px;
+  cursor: pointer;
+}
+ul li img {
+  width: 52px;
+  height: 52px;
+  border: 1px solid #ccc;
+}
+#right {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: #333;
+}
+#left {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  color: #fff;
+}
+.box {
+  position: absolute;
+  background: red;
+  height: 10px;
+}

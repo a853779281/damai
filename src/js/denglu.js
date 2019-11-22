@@ -1,0 +1,9 @@
+ $('button').click(function(){
+             $(this).addClass('active').siblings('button').removeClass('active');
+             $('.item').eq($(this).index()).show().siblings('.item').hide();
+         });
+$('input').on(focus,function(){
+    if($('input').value!=0){
+       $('placeholder')="" 
+    }
+})

@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1567562196984'); /* IE9 */
+  src: url('iconfont.eot?t=1567562196984#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPcAAsAAAAAB+AAAAONAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDSIMeATYCJAMMCwgABCAFhG0HNxvlBsgehXEsLBShXb2VfYggWsuqZ2YnCC5RgDIe0CKqKBQ28gncK4n+hXth2Ij7v/fy76xQMqUxWbVNTjbbB80+m18A/5QAARMH1+RfiOcBzaWaKi0qcYCjBBpgRQCON5CJ+oaxKy9iNoFO40Kh9fzSWpApjEaBuNVpukCWEik1/qFdqCU9ywc0G8Ta0zPBdQBv/O/Hf4hORtJkxlzbN3m9kPkr8U2JkPwnWjMBMt580CBjASjEZanqmDC0LBDqVPiieveqCGks/f//wKerf3hVRRJEZfh2gxnISyfFsOmxoAQyz5pxc8qK4uMTgM+6eJjxoqL2q929rcSqpqN/hM39+7WiBw/qbB89ahA/fDhUIfzou94XHQo4FqDECvS069SjXeaTivUFaweibceU0+4AOX1/82JQHhxWTA1GRxKmnUJmhSK6XngXn5qIjk27AaQWHTgBZITq4n1KsuZBnvrSIx/p2oe1C8hUc6rZUbnAHubbKRYi/8xJhk3dat42bQvZ3DB/vkL1fCESPy1Sql8ssC9fR5wbkcmEGtstCsppRM4NqTeLm3shInbr8hETw2RPrTxtGOajjafL0PrkP0lVXqx+hE8oeukZcz40sKg19cNVqyPfLdNS435EtH4LOOeZS3v6eTRnpeQFBIXkdq4KyC+2g/GffaIg6GGelcUxEitxQS6h2IISmSpvRZ6yYq2MymkyUspKUdtjKZFd1j1E81bYTvYzW9wlYlq8W0JLnog1kt32nCK4BmiR5piQALTGZjvh8P/4Gz8O+C7osEz9LVMW8HNB8n2f1d5LuwRj/LWE5ihA67/4GGcZ5lxQIyxt/WTnJO8kQadOtKBu0JP+whHVl9BuJIakzRhk7SaQgl2ARpdFqNotQad5Bf27DOEIRenAnAkAQr9dkPT6Dlm/G0jBPobGqM9Q9SeETodhO2KXqXSKHA538biX6h5G6XqYAdqS8orAvxprTH1dXJLl4+oxZ9TpqajwyKy9AA9gbow2xkFNNM/TFM0x/VQ+mA/39TEUyzF63MOHa3meTY6IoMuuFN7D9IPCGg7WhYf1onQbhqLTgzGAdrPzFLnPV8M0TPp04WrSKuT1MI6RrnxKlHCRLZAC/kCrtGvZx2iQRjQej0ahcRj9KPlAgfWZFgaFLa+mh/XghdP2MLGSRaBMdFt++PzC/udbAp2M8BwpchTl1MMlRi1j0usAAAAAAA==') format('woff2'),
+  url('iconfont.woff?t=1567562196984') format('woff'),
+  url('iconfont.ttf?t=1567562196984') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1567562196984#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon:before {
+  content: "\e64b";
+}
+
+.icon-shouji:before {
+  content: "\e638";
+}
+
